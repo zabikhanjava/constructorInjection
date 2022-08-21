@@ -1,0 +1,10 @@
+swagger:
+  getpersonData:
+    description: 'API to get some good data on person'
+    operations:
+      getgooduserdataofperson:
+        description: 'fetches the data on person'
+        params:
+          name: 'please pass the name'
+          age: 'please pass the age'
+

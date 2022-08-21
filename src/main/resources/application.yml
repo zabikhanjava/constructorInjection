@@ -1,0 +1,23 @@
+ha:
+  region:
+    hostname : localhost
+    name : khan
+    age : 34
+    mobile : 7204386514
+    address : kaankeri
+    place : skp
+spring:
+  main:
+    allow-circular-references: true
+  mvc:
+    pathmatch.matching-strategy: ANT_PATH_MATCHER
+swagger:
+  getpersonData:
+    description: 'API to get some good data on person'
+    operations:
+      getgooduserdataofperson:
+        description: 'fetches the data on person'
+        params:
+          name: 'please pass the name'
+          age: 'please pass the age'
+
